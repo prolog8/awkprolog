@@ -1,0 +1,4 @@
+?- AST = func(main, void, 
+	[assign(x, add(5,3)), 
+	 assign(y, sub(x, 2))]
+), gen(AST).
